@@ -13,10 +13,12 @@ public class Settings extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
-        Toolbar settingsToolbar = (Toolbar) findViewById(R.id.settingsToolbar);
+        Toolbar settingsToolbar = findViewById(R.id.settingsToolbar);
         setSupportActionBar(settingsToolbar);
         settingsToolbar.setVisibility(View.VISIBLE);
-        getSupportActionBar().setTitle("Settings");
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setTitle("Settings");
+        }
         settingsToolbar.setTitleTextColor(getResources().getColor(R.color.colorWhite));
     }
 }
