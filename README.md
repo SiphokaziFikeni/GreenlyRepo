@@ -5,12 +5,12 @@ Greenly is an Android application that helps users help the environment. The app
 -//TO-DO
 
 # Libraries
--Firebase Core
--Firebase Database
--ConstraintLayout
--Retrofit2
--Gson
--Android Support Library
+- Firebase Core
+- Firebase Database
+- ConstraintLayout
+- Retrofit2
+- Gson
+- Android Support Library
 
 # How Location Works
 - //TO-DO
