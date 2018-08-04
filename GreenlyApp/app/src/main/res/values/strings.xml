@@ -4,5 +4,15 @@
     <string name="app_logo">App Logo</string>
     <string name="google_title">GOOGLE</string>
     <string name="facebook_title">FACEBOOK</string>
+    <string name="contact_us_title">Contact Us</string>
+    <string name="about_greenly_title">About Greenly</string>
+    <string name="about_greenly_paragraph">Greenly is here to make your city greener. Greenly allows you to recycle and get rewarded
+for your recycling efforts. You can recycle: metal, glass, paper, plastic, cartons/tetrapak,
+        and batteries.\nGreenly shows you which materials are recyclable and where, whether drop-off or collection.
+Greenly gives you all the information needed to recycle. You can see your points statements
+and all your vouchers within the app.</string>
+    <string name="contact_us_email">contact@greenly.co.za</string>
+    <string name="greenly_website_link">www.greenly.co.za</string>
+    <string name="log_out_title">Log Out</string>
 
 </resources>
