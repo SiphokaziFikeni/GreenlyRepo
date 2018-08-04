@@ -2,4 +2,7 @@
     <string name="app_name">Greenly</string>
     <string name="app_slogan">This is the new green</string>
     <string name="app_logo">App Logo</string>
+    <string name="google_title">GOOGLE</string>
+    <string name="facebook_title">FACEBOOK</string>
+
 </resources>
