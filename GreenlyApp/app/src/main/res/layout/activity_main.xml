@@ -227,4 +227,5 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="232dp" />
+    <include layout="@layout/bottom_navigation"></include>
 </android.support.constraint.ConstraintLayout>

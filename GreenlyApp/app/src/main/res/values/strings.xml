@@ -27,4 +27,9 @@ and all your vouchers within the app.</string>
     <string name="glass_title">Glass</string>
     <string name="batteries_title">Batteries</string>
     <string name="cartons_titles">Cartons/\nTetrapak</string>
+
+    <string name="recycle_menu_title">Recycle</string>
+    <string name="scan_menu_title">Scan</string>
+    <string name="voucher_menu_title">Voucher</string>
+    <string name="settings_menu_title">Settings</string>
 </resources>
