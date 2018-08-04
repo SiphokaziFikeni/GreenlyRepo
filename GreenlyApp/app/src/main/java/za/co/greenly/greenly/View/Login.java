@@ -14,4 +14,10 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
     }
+
+    //TODO: add authentication
+    public void login(View view) {
+        startActivity(new Intent(this, TermsAndConditionsActivity.class));
+        finish();
+    }
 }

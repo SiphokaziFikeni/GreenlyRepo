@@ -23,6 +23,7 @@
         </activity>
         <activity android:name=".View.Login" />
         <activity android:name=".View.Settings"></activity>
+        <activity android:name=".View.TermsAndConditionsActivity"></activity>
     </application>
 
 </manifest>
