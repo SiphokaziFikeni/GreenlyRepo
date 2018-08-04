@@ -1,2 +1,13 @@
 # GreenlyRepo
-A mobile app that users can use to recycle materials and get rewards for recycling and helping sustain the global village that we live in.
+Greenly is an Android application that helps users help the environment. The application educates users about recycling and how they can get rewarded for recycling.
+
+# Screenshots
+-//TO-DO
+
+# Libraries
+-Firebase Core
+-Firebase Database
+
+# How Location Works
+- //TO-DO
+
