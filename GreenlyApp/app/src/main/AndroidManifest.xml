@@ -14,13 +14,15 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name=".View.splashscreen">
+        <activity android:name=".View.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".View.Login"></activity>
+        <activity android:name=".View.TermsAndConditionsActivity"></activity>
     </application>
 
 </manifest>
