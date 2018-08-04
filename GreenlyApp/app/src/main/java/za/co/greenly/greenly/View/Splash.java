@@ -7,7 +7,7 @@ import android.os.Bundle;
 
 import za.co.greenly.greenly.R;
 
-public class splashscreen extends AppCompatActivity {
+public class Splash extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,7 @@ public class splashscreen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(splashscreen.this, MainActivity.class));
+                startActivity(new Intent(Splash.this, MainActivity.class));
                 finish();
             }
         }, 2000);
