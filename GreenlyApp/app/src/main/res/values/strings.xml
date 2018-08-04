@@ -4,5 +4,7 @@
     <string name="app_logo">App Logo</string>
     <string name="google_title">GOOGLE</string>
     <string name="facebook_title">FACEBOOK</string>
-
+    <string name="terms_and_conditions_description">Before you become a recycling master, \nplease read through our\n<a href="">terms &amp; conditions.</a>\n\nOnce you’re happy you can accept below and start recycling.</string>
+    <string name="terms_and_conditions_checkbox_text">I agree to Greenly’s terms &amp; conditions</string>
+    <string name="terms_and_conditions_button_text">Start Recycling</string>
 </resources>
