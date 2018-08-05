@@ -32,4 +32,8 @@ and all your vouchers within the app.</string>
     <string name="scan_menu_title">Scan</string>
     <string name="voucher_menu_title">Voucher</string>
     <string name="settings_menu_title">Settings</string>
+    <string name="scan_title">Scan</string>
+    <string name="scan_view_points"><font color='#1b5e20'>View Points</font></string>
+    <string name="scan_done"><font color='#1b5e20'>Done</font></string>
+    <string name="scan_successful">Your scan was successful! \n Thank you for recycling and making your city greenly.</string>
 </resources>

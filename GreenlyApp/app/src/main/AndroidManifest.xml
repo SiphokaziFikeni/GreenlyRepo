@@ -22,8 +22,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".View.Login" />
-        <activity android:name=".View.Settings"></activity>
-        <activity android:name=".View.TermsAndConditionsActivity"></activity>
+        <activity android:name=".View.Settings" />
+        <activity android:name=".View.TermsAndConditionsActivity" />
+        <activity android:name=".View.Scanner" />
+        <activity android:name=".View.QRScanning"></activity>
     </application>
 
 </manifest>
