@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "922353608988",
+    "firebase_url": "https://greenly-df9b1.firebaseio.com",
+    "project_id": "greenly-df9b1",
+    "storage_bucket": "greenly-df9b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922353608988:android:c567ffd7a7c49873",
+        "android_client_info": {
+          "package_name": "za.co.greenly.greenly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922353608988-hjc1d02fbe2dp74ljrru1i1kuu72rvgj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK8Vzfm-BMqM9k0bFqkyCoQrbr44AEQEI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
