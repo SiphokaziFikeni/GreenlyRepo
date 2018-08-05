@@ -12,6 +12,6 @@ Greenly is an Android application that helps users help the environment. The app
 - Gson
 - Android Support Library
 
-# How Location Works
+# How Greenly Works
 - //TO-DO
 
