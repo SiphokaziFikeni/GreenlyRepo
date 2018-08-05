@@ -21,15 +21,16 @@ public class FragmentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fragment);
 
+        String materialID = "";
         if (getIntent() != null) {
-            Toast.makeText(this, getIntent().getStringExtra("MaterialID"), Toast.LENGTH_LONG).show();
+            materialID = getIntent().getStringExtra("MaterialID");
         }
 
 //        Toolbar materialToolbar = findViewById(R.id.material_info_toolbar);
 //        setUpToolbar(materialToolbar);
         mTabLayout = findViewById(R.id.material_info_tabs);
         mViewPager = findViewById(R.id.material_info_viewpager);
-        mViewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
+        mViewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager(), materialID);
 
         mViewPager.setAdapter(mViewPagerAdapter);
         mTabLayout.setupWithViewPager(mViewPager);

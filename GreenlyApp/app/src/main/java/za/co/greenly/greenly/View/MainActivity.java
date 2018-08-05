@@ -14,6 +14,7 @@ import android.view.View;
 import android.widget.ImageButton;
 
 import za.co.greenly.greenly.R;
+import za.co.greenly.greenly.network.NetworkManager;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -106,6 +107,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openMaterialInfo(String mid) {
+        NetworkManager nm = new NetworkManager();
+//        nm.getMaterialDetails(mid);
         Intent intent = new Intent(this, FragmentActivity.class);
         intent.putExtra("MaterialID", mid);
         startActivity(intent);
