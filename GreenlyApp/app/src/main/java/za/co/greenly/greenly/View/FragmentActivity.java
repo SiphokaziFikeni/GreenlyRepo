@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Toast;
 
 import za.co.greenly.greenly.R;
 
@@ -19,6 +20,10 @@ public class FragmentActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fragment);
+
+        if (getIntent() != null) {
+            Toast.makeText(this, getIntent().getStringExtra("MaterialID"), Toast.LENGTH_LONG).show();
+        }
 
 //        Toolbar materialToolbar = findViewById(R.id.material_info_toolbar);
 //        setUpToolbar(materialToolbar);

@@ -20,7 +20,7 @@ public class TermsAndConditionsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_terms_and_conditions);
 
         mCheckBox = findViewById(R.id.terms_checkBox);
-        mStartRecyclingButton = findViewById(R.id.terms_button);
+        mStartRecyclingButton = findViewById(R.id.buttonTermsAndConditions);
 
         mCheckBox.setOnClickListener(new View.OnClickListener() {
             @Override

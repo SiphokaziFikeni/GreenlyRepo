@@ -18,4 +18,18 @@ and all your vouchers within the app.</string>
     <string name="terms_and_conditions_description">Before you become a recycling master, \nplease read through our\n<a href="">terms &amp; conditions.</a>\n\nOnce you’re happy you can accept below and start recycling.</string>
     <string name="terms_and_conditions_checkbox_text">I agree to Greenly’s terms &amp; conditions</string>
     <string name="terms_and_conditions_button_text">Start Recycling</string>
+    <string name="location_johannesburg_title">Johannesburg</string>
+    <string name="location_pin">Location Pin</string>
+
+    <string name="metal_title">Metal</string>
+    <string name="plastic_title">Plastic</string>
+    <string name="paper_title">Paper</string>
+    <string name="glass_title">Glass</string>
+    <string name="batteries_title">Batteries</string>
+    <string name="cartons_titles">Cartons/\nTetrapak</string>
+
+    <string name="recycle_menu_title">Recycle</string>
+    <string name="scan_menu_title">Scan</string>
+    <string name="voucher_menu_title">Voucher</string>
+    <string name="settings_menu_title">Settings</string>
 </resources>
