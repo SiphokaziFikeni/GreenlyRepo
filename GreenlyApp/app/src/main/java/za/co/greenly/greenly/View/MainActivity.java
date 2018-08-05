@@ -44,6 +44,10 @@ public class MainActivity extends AppCompatActivity {
                         Intent settingsIntent = new Intent(MainActivity.this, Settings.class);
                         startActivity(settingsIntent);
                         break;
+                    case R.id.scan:
+                        Intent scanIntent = new Intent(MainActivity.this, Scanner.class);
+                        startActivity(scanIntent);
+                        break;
                     case R.id.vouchers:
                         Intent rewardIntent = new Intent(MainActivity.this, Rewards.class);
                         startActivity(rewardIntent);
