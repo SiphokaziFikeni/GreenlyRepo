@@ -32,4 +32,6 @@ and all your vouchers within the app.</string>
     <string name="scan_menu_title">Scan</string>
     <string name="voucher_menu_title">Voucher</string>
     <string name="settings_menu_title">Settings</string>
+    <string name="tab_history_title">History</string>
+    <string name="tab_vouchers_title">Vouchers</string>
 </resources>
