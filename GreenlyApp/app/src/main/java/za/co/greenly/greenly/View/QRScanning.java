@@ -22,8 +22,9 @@ public class QRScanning extends AppCompatActivity {
         builder.setMessage(R.string.scan_successful);
         builder.setPositiveButton(R.string.scan_view_points, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
-                //Intent mainIntent = new Intent(this, MainActivity.class);
-                //startActivity(mainIntent);
+                Intent mainIntent = new Intent(getApplicationContext(), Rewards.class);
+                startActivity(mainIntent);
+                finish();
             }
         });
         builder.setNegativeButton(R.string.scan_done, new DialogInterface.OnClickListener() {

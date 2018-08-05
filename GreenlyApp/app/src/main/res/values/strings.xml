@@ -36,4 +36,6 @@ and all your vouchers within the app.</string>
     <string name="scan_view_points"><font color='#1b5e20'>View Points</font></string>
     <string name="scan_done"><font color='#1b5e20'>Done</font></string>
     <string name="scan_successful">Your scan was successful! \n Thank you for recycling and making your city greenly.</string>
+    <string name="tab_history_title">History</string>
+    <string name="tab_vouchers_title">Vouchers</string>
 </resources>

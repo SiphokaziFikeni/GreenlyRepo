@@ -26,6 +26,7 @@
         <activity android:name=".View.TermsAndConditionsActivity" />
         <activity android:name=".View.Scanner" />
         <activity android:name=".View.QRScanning"></activity>
+        <activity android:name=".View.Rewards"></activity>
     </application>
 
 </manifest>

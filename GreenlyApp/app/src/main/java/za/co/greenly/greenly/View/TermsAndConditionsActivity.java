@@ -14,9 +14,4 @@ public class TermsAndConditionsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_terms_and_conditions);
     }
-    public void buttonClick(View view)
-    {
-        Intent mainIntent = new Intent(this, MainActivity.class);
-        startActivity(mainIntent);
-    }
 }
